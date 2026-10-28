@@ -1,0 +1,16 @@
+{
+  "name": "qarzdaftarbot",
+  "version": "1.0.0",
+  "description": "Do'kon egalari uchun Qarz daftari: Telegram Mini App, bot va admin panel",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/*.test.js\"",
+    "seed": "node --disable-warning=ExperimentalWarning scripts/seed-demo.js"
+  }
+}
